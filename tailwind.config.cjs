@@ -31,6 +31,9 @@ module.exports = {
       small: "0.3125rem",
       base: "0.625rem",
     },
+    fontFamily: {
+      'body': ['"Poppins"'],
+    },
     extend: {},
   },
   plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
