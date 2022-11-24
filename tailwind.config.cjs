@@ -9,7 +9,7 @@ module.exports = {
       greydark: "#474747",
       brand: "#CD0136",
       white: "#FFFFFF",
-      black: "#00000",
+      black: "#000000",
       green: "#008011",
       greenhover: "#00660E",
       yellow: "#CC9B14",

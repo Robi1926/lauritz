@@ -53,28 +53,29 @@
       <section class="mb-10 h-screen w-full">
         <h2 class="mb-5 text-h2 font-medium">Card</h2>
         <article
-          class="flex h-[18.75rem] w-[60.625rem] flex-row gap-5 bg-beige"
+          class="flex h-[18.75rem] w-[60.625rem] flex-row gap-5 pr-5 bg-beige"
         >
           <section class="basis-1/3">
             <img src="img/stol.jpg" alt="" class="" />
           </section>
+
           <!-- column 1 -->
-          <section class="flex basis-1/3 flex-col justify-between">
+          <section class="flex basis-1/3 flex-col justify-between py-4">
             <section class="">
               <h5 class="text-h5 font-medium">Designer stol</h5>
-              <section class="flex w-[15.563rem] gap-[5px]">
+              <section class="flex w-[15.563rem] gap-[5px] pt-2.5 pb-1.5">
                 <div
-                  class="flex justify-center rounded-full bg-greydark align-middle text-tag font-semibold text-greylight"
+                  class="flex justify-center rounded-full bg-greylight py-0.5 px-1 align-middle text-tag font-semibold text-greydark"
                 >
                   Nyproduceret
                 </div>
                 <div
-                  class="flex justify-center rounded-full bg-greydark align-middle text-tag font-semibold text-greylight"
+                  class="flex justify-center rounded-full bg-black py-0.5 px-1 align-middle text-tag font-semibold text-greylight"
                 >
                   deLuxe
                 </div>
                 <div
-                  class="flex justify-center rounded-full bg-greydark align-middle text-tag font-semibold text-greylight"
+                  class="flex justify-center rounded-full border bg-brand bg-opacity-10 py-0.5 px-1 align-middle text-tag font-semibold text-brand"
                 >
                   Sidste chance
                 </div>
@@ -86,11 +87,46 @@
                 at nostrum atque ea.
               </p>
             </section>
-            <section class="">
-              <p class="">DK, Herlev</p>
+            <section class="flex place-items-center gap-2.5">
+              <img src="img/map-icon.svg" alt="" class="h-6" />
+              <p class="text-action-sm font-medium underline">DK, Herlev</p>
             </section>
           </section>
-          <section class="basis-1/3">hej</section>
+          <!-- col 2 -->
+          <section class="flex basis-1/3 flex-col justify-between py-4">
+            <section class="flex justify-between">
+              <section class="flex place-items-center gap-2.5">
+                <img src="img/clock-icon.svg" alt="" class="w-6" />
+                <p class="text-action font-medium text-brand">14 : 58</p>
+              </section>
+              <section class="place-content-center">
+                <p class="gap-2.5 text-body font-regular opacity-50">
+                  Vurdering
+                </p>
+                <p class="text-action font-medium">4000 DKK</p>
+              </section>
+            </section>
+            <section class="flex justify-between">
+              <section class="">
+                <p class="text-body font-regular text-right mb-2.5">Køb nu</p>
+                <button
+                  class="flex gap-4 rounded-md bg-green p-4 hover:bg-greenhover text-action font-medium"
+                >
+                  <img src="img/icon.svg" alt="" />
+                  <a class="text-white" href="">3500 DKK</a>
+                </button>
+              </section>
+              <section class="">
+                <p class="text-body font-regular text-right mb-2.5">Næste bud</p>
+                <button
+                  class="flex gap-4 rounded-md bg-yellow p-4 hover:bg-yellowhover text-action font-medium"
+                >
+                  <img src="img/byd-icon.svg" alt="" />
+                  <a class="text-white" href="">2200 DKK</a>
+                </button>
+              </section>
+            </section>
+          </section>
         </article>
       </section>
     </section>
