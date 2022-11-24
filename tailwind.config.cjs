@@ -28,12 +28,16 @@ module.exports = {
       "body-sm": "0.8rem",
       tag: "0.64rem",
     },
-    borderRadius: {
-      small: "0.3125rem",
-      base: "0.625rem",
+    fontWeight: {
+      medium: "500",
+      regular: "400",
     },
+    // borderRadius: {
+    //   sm: "0.3125rem",
+    //   base: "0.625rem",
+    // },
     fontFamily: {
-      body: ['"Poppins"'],
+      laurtiz: ['"Poppins-sans-serif"'],
     },
     extend: {},
   },
