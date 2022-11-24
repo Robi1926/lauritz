@@ -4,9 +4,92 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <title>Vite App</title>
   </head>
-  <body class="grid place-items-center p-8">
+  <body class="bg-white px-[10%] font-lauritz">
+    <section class="">
+      <h1 class="text-h1 font-medium text-brand">Components</h1>
+
+      <!-- Knapper -->
+      <section class="mt-10 h-screen w-full">
+        <h2 class="mb-5 text-h2 font-medium">Buttons</h2>
+
+        <button
+          class="mb-4 flex flex-row gap-4 rounded-md bg-green p-4 hover:bg-greenhover"
+        >
+          <img src="img/icon.svg" alt="" />
+          <a class="text-white" href="">Køb</a>
+        </button>
+        <button
+          class="mb-4 flex flex-row gap-4 rounded-md bg-yellow p-4 hover:bg-yellowhover"
+        >
+          <img src="img/icon.svg" alt="" />
+          <a class="text-white" href="">Byd</a>
+        </button>
+        <button
+          class="mb-4 flex flex-row gap-4 rounded-md bg-greylight p-4 hover:bg-grey-light-hover"
+        >
+          <a class="text-white" href="">Fortryd</a>
+        </button>
+        <button
+          class="mb-4 flex flex-row gap-4 rounded-md bg-green p-4 hover:bg-greenhover"
+        >
+          <a class="text-white" href="">Bekræft</a>
+        </button>
+      </section>
+
+      <!-- Kort -->
+      <section class="mb-10 h-screen w-full">
+        <h2 class="mb-5 text-h2 font-medium">Card</h2>
+        <article
+          class="flex h-[18.75rem] w-[60.625rem] flex-row gap-5 bg-beige"
+        >
+          <section class="basis-1/3">
+            <img src="img/stol.jpg" alt="" class="h-[18.75rem] w-[19.375rem]" />
+          </section>
+          <!-- column 1 -->
+          <section class="flex basis-1/3 flex-col justify-between">
+            <section class="">
+              <h5 class="text-h5 font-medium">Designer stol</h5>
+              <section class="flex w-[15.563rem] gap-[5px]">
+                <div
+                  class="flex justify-center rounded-full bg-greydark align-middle text-tag font-semibold text-greylight"
+                >
+                  Nyproduceret
+                </div>
+                <div
+                  class="flex justify-center rounded-full bg-greydark align-middle text-tag font-semibold text-greylight"
+                >
+                  deLuxe
+                </div>
+                <div
+                  class="flex justify-center rounded-full bg-greydark align-middle text-tag font-semibold text-greylight"
+                >
+                  Sidste chance
+                </div>
+              </section>
+              <p class="text-body-sm font-regular">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+                ducimus quis nulla modi impedit accusamus possimus voluptatum,
+                error harum, quam cumque voluptatem nesciunt velit a! Voluptas
+                at nostrum atque ea.
+              </p>
+            </section>
+            <section class="">
+              <p class="">DK, Herlev</p>
+            </section>
+          </section>
+          <section class="basis-1/3">hej</section>
+        </article>
+      </section>
+    </section>
+
     <script type="module" src="./main.js"></script>
   </body>
 </html>
