@@ -29,15 +29,12 @@ module.exports = {
       tag: "0.64rem",
     },
     fontWeight: {
+      semibold: "600",
       medium: "500",
       regular: "400",
     },
-    // borderRadius: {
-    //   sm: "0.3125rem",
-    //   base: "0.625rem",
-    // },
     fontFamily: {
-      laurtiz: ['"Poppins-sans-serif"'],
+      lauritz: ["Poppins", "sans-serif"],
     },
     extend: {},
   },
