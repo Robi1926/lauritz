@@ -27,6 +27,10 @@ module.exports = {
       "body-sm": "0.8rem",
       tag: "0.64rem",
     },
+    borderRadius: {
+      small: "0.3125rem",
+      base: "0.625rem",
+    },
     extend: {},
   },
   plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
