@@ -14,6 +14,7 @@ module.exports = {
       greenhover: "#00660E",
       yellow: "#CC9B14",
       yellowhover: "#CC9B14",
+      beige: "#F5F5F5",
     },
     fontSize: {
       h1: "3.052rem",
@@ -32,7 +33,7 @@ module.exports = {
       base: "0.625rem",
     },
     fontFamily: {
-      'body': ['"Poppins"'],
+      body: ['"Poppins"'],
     },
     extend: {},
   },
